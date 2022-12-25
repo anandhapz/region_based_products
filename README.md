@@ -8,8 +8,8 @@ Magento2 extension to show products based on customer location on the Product Li
 4.	Unencrypted code for easy customization.
 
 # Installation Instruction:
-- Copy the content of the repo to the app/code/Hapz// folder
-- Enable the module by running php bin/magentomodule:enableHapz_RegionBasedProducts
+- Copy the content of the repo to the app/code/Hapz/ folder
+- Enable the module by running php bin/magentomodule:enable Hapz_RegionBasedProducts
 - Run command: php bin/magentosetup:upgrade
 - Run Command: php bin/magentosetup:static-content:deploy
 - Now Flush Cache: php bin/magentocache:flush
